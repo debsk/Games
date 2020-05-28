@@ -1,0 +1,8 @@
+Colisão entre retângulo e círculo:
+https://www.youtube.com/watch?v=EnEw_3DvdrU
+
+Colisão entre círculos:
+https://www.youtube.com/watch?v=kNpcBCQP6MM
+
+Colisão entre retângulos:
+https://www.youtube.com/watch?v=UeoDOvrm-Tc

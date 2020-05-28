@@ -1,0 +1,33 @@
+Coordenadas no Pygame : 
+
+==> Tela:                
+                      |
+                      |
+                      |
+                   ---------------------->(x)
+                      |
+                      |   Essa é a tela 
+                      |     do pygame (o y cresce para baixo)
+                      |
+                      |
+                      |
+                      v
+                      (y)
+
+==> pygame.display.set_mode((parametro_x, parametro_y)) # comando para a tela aparecer;
+
+
+==> pygame.font.SysFont() #carrega as fontes para o post anterior;
+
+==> pygame.draw # comando para desenhar alguma figura.
+	ex.:
+	pygame.draw.line(screen, WHITE, [10, 100], [630, 100], 5)                #linha
+        pygame.draw.rect(screen, BLUE, [200, 210, 40, 20])                       #quadrado
+        pygame.draw.ellipse(screen, RED, [300, 200, 40, 40])                     #elipse
+        pygame.draw.polygon(screen, GREEN, [[420, 200], [440, 240], [400, 240]]) #poligono
+
+
+fonte: 
+https://humberto.io/pt-br/blog/desbravando-o-pygame-2-desenhando-na-tela/
+
+

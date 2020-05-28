@@ -1,0 +1,28 @@
+Modularização 
+
+=> Surgiu na década de 60(início);
+
+=> Sistemas ficando cada vez mais fortes; 
+
+=> FOCO: dividir um programa grande;
+
+=> FOCO: aumentar a legibilidade;
+
+Para utilizar Módulos, criamosum arquivo.py e importamos esse arquivo no programa em que iremos utilizar. 
+
+Em python, todo arquivo.py pode ser um módulo...
+
+PASTA VSCODE: 
+
+== modulo\modedadef.py e moeda.py; 
+
+Pacotes 
+
+=> É uma pasta que contém módulos;
+
+=> Cada pasta precisa conter um __init__.py;
+
+PASTA VSCODE:
+
+== modulo\ uteis\datas , strings e numeros (todos com __init__.py)
+

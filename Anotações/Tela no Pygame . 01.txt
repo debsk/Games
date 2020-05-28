@@ -1,0 +1,24 @@
+...CONHECENDO A TELA...01
+
+Importando: 
+
+import pygame
+
+pygame.init()                                                                         #inicializando a biblioteca. 
+
+nome_variavel = pygame.display.set_mode((dimensao_em_pixels_x, dimensao_em_pixels_y)) #tamanho da janela
+
+pygame.display.set_caption("mensagem de apresentacao, na parte de cima")
+
+while True:
+    '''
+       A estrutura do jogo que será criado...
+    '''
+              
+    screen.fill(cor/var_tela, (0, 0))                                                 # geralmente colocamos o comando para cria a tela por ultimo, para que os                                                                                         objetos do jogo possam serem vistos.
+
+    pygame.display.flip()                                                             #atualiza o desenho da tela. 
+
+
+fonte:
+https://humberto.io/pt-br/blog/desbravando-o-pygame-1-conhecendo-a-biblioteca/
